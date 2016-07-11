@@ -1,0 +1,1926 @@
+{
+  "name": "container",
+  "md": {
+    "width": "auto",
+    "height": "auto",
+    "margin": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "align": "left",
+    "components": [
+      {
+        "name": "formlayout",
+        "md": {
+          "width": "auto",
+          "height": "auto",
+          "margin": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "align": "left",
+          "rows": [
+            {
+              "name": "formlayout-row",
+              "md": {
+                "columns": [
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "12",
+                      "components": [
+                        {
+                          "name": "label-header",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "",
+                            "align": "left",
+                            "text": "Type approval application",
+                            "bold": false,
+                            "size": "h2"
+                          },
+                          "id": "3"
+                        }
+                      ]
+                    },
+                    "id": "10"
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "name": "formlayout-row",
+              "md": {
+                "columns": [
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "2",
+                      "components": [
+                        {
+                          "name": "input-select",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "applicationType",
+                            "align": "left",
+                            "items": [
+                              "New",
+                              "Modification",
+                              "Renewal"
+                            ],
+                            "label": "Application type"
+                          },
+                          "id": "8"
+                        }
+                      ]
+                    },
+                    "id": "11"
+                  },
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "2",
+                      "components": [
+                        {
+                          "name": "input-string",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "taNumber",
+                            "align": "left",
+                            "type": "text",
+                            "label": "TA number"
+                          },
+                          "id": "22"
+                        }
+                      ]
+                    },
+                    "id": "12"
+                  },
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "2",
+                      "components": [
+                        {
+                          "name": "input-string",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "technology",
+                            "align": "left",
+                            "type": "text",
+                            "label": "Technology"
+                          },
+                          "id": "24"
+                        }
+                      ]
+                    },
+                    "id": "13"
+                  },
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "6",
+                      "components": [
+                        {
+                          "name": "input-file",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "datasheet",
+                            "align": "left",
+                            "label": "Datasheet"
+                          },
+                          "id": "30"
+                        }
+                      ]
+                    },
+                    "id": "14"
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "name": "formlayout-row",
+              "md": {
+                "columns": [
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "2",
+                      "components": [
+                        {
+                          "name": "input-select",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "manufacturer",
+                            "align": "left",
+                            "items": [
+                              "Huawei"
+                            ],
+                            "label": "Manufacturer"
+                          },
+                          "id": "32"
+                        }
+                      ]
+                    },
+                    "id": "15"
+                  },
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "2",
+                      "components": [
+                        {
+                          "name": "input-string",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "binding",
+                            "align": "left",
+                            "type": "text",
+                            "label": "binding"
+                          },
+                          "id": "40"
+                        }
+                      ]
+                    },
+                    "id": "16"
+                  },
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "2",
+                      "components": [
+                        {
+                          "name": "input-string",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "hardwareVersion",
+                            "align": "left",
+                            "type": "text",
+                            "label": "Hardware version"
+                          },
+                          "id": "34"
+                        }
+                      ]
+                    },
+                    "id": "17"
+                  },
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "3",
+                      "components": [
+                        {
+                          "name": "input-string",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "softwareVersion",
+                            "align": "left",
+                            "type": "text",
+                            "label": "Software version"
+                          },
+                          "id": "37"
+                        }
+                      ]
+                    },
+                    "id": "18"
+                  },
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "3",
+                      "components": [
+                        {
+                          "name": "input-check",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "integratedAntenna",
+                            "align": "left",
+                            "label": "Integrated antenna",
+                            "style": "slider"
+                          },
+                          "id": "44"
+                        }
+                      ]
+                    },
+                    "id": "19"
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "name": "formlayout-row",
+              "md": {
+                "columns": [
+                  {
+                    "name": "formlayout-column",
+                    "md": {
+                      "columnWidth": "12",
+                      "components": [
+                        {
+                          "name": "horizontal-splitter",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "binding": "",
+                            "align": "left"
+                          },
+                          "id": "52"
+                        },
+                        {
+                          "name": "page-control",
+                          "md": {
+                            "width": "auto",
+                            "height": "auto",
+                            "margin": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "align": "left",
+                            "tabs": [
+                              {
+                                "name": "page-control-item",
+                                "md": {
+                                  "width": "auto",
+                                  "height": "auto",
+                                  "margin": {
+                                    "top": 0,
+                                    "right": 0,
+                                    "bottom": 0,
+                                    "left": 0
+                                  },
+                                  "align": "left",
+                                  "name": "Technical parameters",
+                                  "components": [
+                                    {
+                                      "name": "button",
+                                      "md": {
+                                        "width": "auto",
+                                        "height": "auto",
+                                        "margin": {
+                                          "top": 0,
+                                          "right": 0,
+                                          "bottom": 0,
+                                          "left": 0
+                                        },
+                                        "binding": "",
+                                        "align": "left",
+                                        "action": "Add frequency band",
+                                        "type": "primary",
+                                        "label": "plus",
+                                        "labelPosition": "left"
+                                      },
+                                      "id": "64"
+                                    },
+                                    {
+                                      "name": "object-list",
+                                      "md": {
+                                        "width": "auto",
+                                        "height": "auto",
+                                        "margin": {
+                                          "top": 0,
+                                          "right": 0,
+                                          "bottom": 0,
+                                          "left": 0
+                                        },
+                                        "binding": "technicalParameters",
+                                        "align": "left",
+                                        "sidebarTitle": "Mode",
+                                        "formTitle": "Channel",
+                                        "sidebarWidth": "300px",
+                                        "columns": [
+                                          {
+                                            "name": "object-list-column",
+                                            "md": {
+                                              "width": "50%",
+                                              "height": "auto",
+                                              "label": "Emission",
+                                              "unit": "",
+                                              "binding": "emission"
+                                            },
+                                            "id": "200"
+                                          },
+                                          {
+                                            "name": "object-list-column",
+                                            "md": {
+                                              "width": "50%",
+                                              "height": "auto",
+                                              "label": "Bandwidth",
+                                              "unit": "kHz",
+                                              "binding": "bandwidth"
+                                            },
+                                            "id": "201"
+                                          }
+                                        ],
+                                        "components": [
+                                          {
+                                            "name": "formlayout",
+                                            "md": {
+                                              "width": "auto",
+                                              "height": "auto",
+                                              "margin": {
+                                                "top": 0,
+                                                "right": 0,
+                                                "bottom": 0,
+                                                "left": 0
+                                              },
+                                              "align": "left",
+                                              "rows": [
+                                                {
+                                                  "name": "formlayout-row",
+                                                  "md": {
+                                                    "columns": [
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-select",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "modulation",
+                                                                "align": "left",
+                                                                "items": [
+                                                                  "QAM-4",
+                                                                  "QAM-16",
+                                                                  "QAM-64",
+                                                                  "OFDM"
+                                                                ],
+                                                                "label": "Modulation"
+                                                              },
+                                                              "id": "27"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "98"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "channelSeparate",
+                                                                "align": "left",
+                                                                "unit": "kHz",
+                                                                "label": "Channel separate"
+                                                              },
+                                                              "id": "35"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "99"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "spacing",
+                                                                "align": "left",
+                                                                "unit": "MHz",
+                                                                "label": "Spacing"
+                                                              },
+                                                              "id": "39"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "100"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "bitrate",
+                                                                "align": "left",
+                                                                "unit": "Mbis/s",
+                                                                "label": "Bitrate"
+                                                              },
+                                                              "id": "43"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "101"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "96"
+                                                },
+                                                {
+                                                  "name": "formlayout-row",
+                                                  "md": {
+                                                    "columns": [
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-check",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "transmitter",
+                                                                "align": "left",
+                                                                "label": "transmitter",
+                                                                "style": "slider"
+                                                              },
+                                                              "id": "76"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "103"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "power",
+                                                                "align": "left",
+                                                                "unit": "dBW",
+                                                                "label": "power"
+                                                              },
+                                                              "id": "47"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "104"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-check",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "receiver",
+                                                                "align": "left",
+                                                                "label": "receiver",
+                                                                "style": "slider"
+                                                              },
+                                                              "id": "80"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "105"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "sensitivity",
+                                                                "align": "left",
+                                                                "unit": "dBW",
+                                                                "label": "Sensitivity"
+                                                              },
+                                                              "id": "50"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "106"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "102"
+                                                },
+                                                {
+                                                  "name": "formlayout-row",
+                                                  "md": {
+                                                    "columns": [
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "6",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-radio",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "powerType",
+                                                                "align": "left",
+                                                                "items": [
+                                                                  "Peak envelope power",
+                                                                  "Mean power",
+                                                                  "Carrier power"
+                                                                ],
+                                                                "orientation": "horizontal"
+                                                              },
+                                                              "id": "66"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "108"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "ciLong",
+                                                                "align": "left",
+                                                                "unit": "dB",
+                                                                "label": "C/I Long"
+                                                              },
+                                                              "id": "55"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "109"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "3",
+                                                          "components": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "binding": "ciShort",
+                                                                "align": "left",
+                                                                "unit": "dB",
+                                                                "label": "C/I Short"
+                                                              },
+                                                              "id": "61"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "110"
+                                                      }
+                                                    ]
+                                                  },
+
+                                                  "id": "107"
+                                                },
+                                                {
+                                                  "name": "formlayout-row",
+                                                  "md": {
+                                                    "columns": [
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "6",
+                                                          "components": [
+                                                            {
+                                                              "name": "tab-control",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "align": "left",
+                                                                "tabs": [
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "Diagram",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "chart",
+                                                                          "md": {
+                                                                            "width": "auto",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "binding": "",
+                                                                            "align": "left",
+                                                                            "xAxesLabel": "angle, dgr",
+                                                                            "yAxesLabel": "value, dB",
+                                                                            "lines": [
+                                                                              {
+                                                                                "name": "chart-line",
+                                                                                "md": {
+                                                                                  "binding": "rxData",
+                                                                                  "label": "Rx",
+                                                                                  "color": "green",
+                                                                                  "xBinding": "frequencyOffset",
+                                                                                  "yBinding": "value"
+                                                                                },
+                                                                                "id": "46"
+                                                                              },
+                                                                              {
+                                                                                "name": "chart-line",
+                                                                                "md": {
+                                                                                  "binding": "txData",
+                                                                                  "label": "Tx",
+                                                                                  "color": "blue",
+                                                                                  "xBinding": "frequencyOffset",
+                                                                                  "yBinding": "value"
+                                                                                },
+                                                                                "id": "48"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "25"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "117"
+                                                                  },
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "RX Data",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "data-grid",
+                                                                          "md": {
+                                                                            "width": "100%",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "binding": "rxData",
+                                                                            "align": "left",
+                                                                            "columns": [
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "frequencyOffset",
+                                                                                  "align": "left",
+                                                                                  "unit": "deg",
+                                                                                  "label": "Frequency offset"
+                                                                                },
+                                                                                "id": "36"
+                                                                              },
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "value",
+                                                                                  "align": "left",
+                                                                                  "unit": "dB",
+                                                                                  "label": "Value"
+                                                                                },
+                                                                                "id": "38"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "26"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "115"
+                                                                  },
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "TX Data",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "data-grid",
+                                                                          "md": {
+                                                                            "width": "100%",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "binding": "txData",
+                                                                            "align": "left",
+                                                                            "columns": [
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "frequencyOffset",
+                                                                                  "align": "left",
+                                                                                  "unit": "deg",
+                                                                                  "label": "Frequency offset"
+                                                                                },
+                                                                                "id": "67"
+                                                                              },
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "value",
+                                                                                  "align": "left",
+                                                                                  "unit": "dB",
+                                                                                  "label": "Value"
+                                                                                },
+                                                                                "id": "69"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "65"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "116"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              "id": "114"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "112"
+                                                      },
+                                                      {
+                                                        "name": "formlayout-column",
+                                                        "md": {
+                                                          "columnWidth": "6",
+                                                          "components": [
+                                                            {
+                                                              "name": "tab-control",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "align": "left",
+                                                                "tabs": [
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "Diagram",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "chart",
+                                                                          "md": {
+                                                                            "width": "auto",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "binding": "",
+                                                                            "align": "left",
+                                                                            "xAxesLabel": "angle, dgr",
+                                                                            "yAxesLabel": "value, dB",
+                                                                            "lines": [
+                                                                              {
+                                                                                "name": "chart-line",
+                                                                                "md": {
+                                                                                  "binding": "rxData",
+                                                                                  "label": "Rx",
+                                                                                  "color": "green",
+                                                                                  "xBinding": "frequencyOffset",
+                                                                                  "yBinding": "value"
+                                                                                },
+                                                                                "components": [],
+                                                                                "id": "51"
+                                                                              },
+                                                                              {
+                                                                                "name": "chart-line",
+                                                                                "md": {
+                                                                                  "binding": "txData",
+                                                                                  "label": "Tx",
+                                                                                  "color": "blue",
+                                                                                  "xBinding": "frequencyOffset",
+                                                                                  "yBinding": "value"
+                                                                                },
+                                                                                "id": "53"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "49"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "41"
+                                                                  },
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "RX Data",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "data-grid",
+                                                                          "md": {
+                                                                            "width": "100%",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "binding": "rxData",
+                                                                            "align": "left",
+                                                                            "columns": [
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "frequencyOffset",
+                                                                                  "align": "left",
+                                                                                  "unit": "deg",
+                                                                                  "label": "Frequency offset"
+                                                                                },
+                                                                                "id": "73"
+                                                                              },
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "value",
+                                                                                  "align": "left",
+                                                                                  "unit": "dB",
+                                                                                  "label": "Value"
+                                                                                },
+                                                                                "id": "77"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "71"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "45"
+                                                                  },
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "TX Data",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "data-grid",
+                                                                          "md": {
+                                                                            "width": "100%",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "binding": "txData",
+                                                                            "align": "left",
+                                                                            "columns": [
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "frequencyOffset",
+                                                                                  "align": "left",
+                                                                                  "unit": "deg",
+                                                                                  "label": "Frequency offset"
+                                                                                },
+                                                                                "id": "89"
+                                                                              },
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "50%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "value",
+                                                                                  "align": "left",
+                                                                                  "unit": "dB",
+                                                                                  "label": "Value"
+                                                                                },
+                                                                                "id": "90"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "88"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "42"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              "id": "33"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "113"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "111"
+                                                }
+                                              ]
+                                            },
+                                            "id": "94"
+                                          }
+                                        ]
+                                      },
+                                      "id": "31"
+                                    }
+                                  ]
+                                },
+                                "id": "56"
+                              },
+                              {
+                                "name": "page-control-item",
+                                "md": {
+                                  "width": "auto",
+                                  "height": "auto",
+                                  "margin": {
+                                    "top": 0,
+                                    "right": 0,
+                                    "bottom": 0,
+                                    "left": 0
+                                  },
+                                  "align": "left",
+                                  "name": "Integrated antenna",
+                                  "components": [
+                                    {
+                                      "name": "formlayout",
+                                      "md": {
+                                        "width": "auto",
+                                        "height": "auto",
+                                        "margin": {
+                                          "top": 0,
+                                          "right": 0,
+                                          "bottom": 0,
+                                          "left": 0
+                                        },
+                                        "align": "left",
+                                        "rows": [
+                                          {
+                                            "name": "formlayout-row",
+                                            "md": {
+                                              "columns": [
+                                                {
+                                                  "name": "formlayout-column",
+                                                  "md": {
+                                                    "columnWidth": "2",
+                                                    "components": [
+                                                      {
+                                                        "name": "input-select",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "type",
+                                                          "align": "left",
+                                                          "items": [
+                                                            "item1",
+                                                            "item2"
+                                                          ],
+                                                          "label": "Type"
+                                                        },
+                                                        "id": "128"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "63"
+                                                },
+                                                {
+                                                  "name": "formlayout-column",
+                                                  "md": {
+                                                    "columnWidth": "10",
+                                                    "components": [
+                                                      {
+                                                        "name": "input-multiselect",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "polarization",
+                                                          "align": "left",
+                                                          "items": [
+                                                            "item1",
+                                                            "item2"
+                                                          ],
+                                                          "buttonText": "Add Polarization",
+                                                          "canEdit": false
+                                                        },
+                                                        "id": "135"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "70"
+                                                }
+                                              ]
+                                            },
+                                            "id": "28"
+                                          },
+                                          {
+                                            "name": "formlayout-row",
+                                            "md": {
+                                              "columns": [
+                                                {
+                                                  "name": "formlayout-column",
+                                                  "md": {
+                                                    "columnWidth": "2",
+                                                    "components": [
+                                                      {
+                                                        "name": "label-header",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "align": "left",
+                                                          "text": "Frequency range",
+                                                          "bold": false,
+                                                          "size": "h5"
+                                                        },
+                                                        "id": "147"
+                                                      },
+                                                      {
+                                                        "name": "multi-input",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "frequencyRange",
+                                                          "align": "left",
+                                                          "inputs": [
+                                                            {
+                                                              "name": "multi-input-item",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "lower",
+                                                                "unit": "MHz",
+                                                                "label": "Lower"
+                                                              },
+                                                              "id": "153"
+                                                            },
+                                                            {
+                                                              "name": "multi-input-item",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "upper",
+                                                                "unit": "MHz",
+                                                                "label": "Upper"
+                                                              },
+                                                              "id": "154"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "151"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "78"
+                                                },
+                                                {
+                                                  "name": "formlayout-column",
+                                                  "md": {
+                                                    "columnWidth": "10",
+                                                    "components": [
+                                                      {
+                                                        "name": "input-multiselect",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "electricalDowntilt",
+                                                          "align": "left",
+                                                          "items": [],
+                                                          "buttonText": "Add Electrical Downtilt",
+                                                          "canEdit": true
+                                                        },
+                                                        "id": "149"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "79"
+                                                }
+                                              ]
+                                            },
+                                            "id": "29"
+                                          },
+                                          {
+                                            "name": "formlayout-row",
+                                            "md": {
+                                              "columns": [
+                                                {
+                                                  "name": "formlayout-column",
+                                                  "md": {
+                                                    "columnWidth": "2",
+                                                    "components": [
+                                                      {
+                                                        "name": "label-header",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "",
+                                                          "align": "left",
+                                                          "text": "Gain",
+                                                          "bold": false,
+                                                          "size": "h5"
+                                                        },
+                                                        "id": "158"
+                                                      },
+                                                      {
+                                                        "name": "multi-input",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "gain",
+                                                          "align": "left",
+                                                          "inputs": [
+                                                            {
+                                                              "name": "multi-input-item",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "low",
+                                                                "unit": "dBi",
+                                                                "label": "Low"
+                                                              },
+                                                              "id": "165"
+                                                            },
+                                                            {
+                                                              "name": "multi-input-item",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "middle",
+                                                                "unit": "dBi",
+                                                                "label": "Middle"
+                                                              },
+                                                              "id": "166"
+                                                            },
+                                                            {
+                                                              "name": "multi-input-item",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "high",
+                                                                "unit": "dBi",
+                                                                "label": "High"
+                                                              },
+                                                              "id": "167"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "163"
+                                                      },
+                                                      {
+                                                        "name": "input-value",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "maxPower",
+                                                          "align": "left",
+                                                          "unit": "W",
+                                                          "label": "Max power"
+                                                        },
+                                                        "id": "174"
+                                                      },
+                                                      {
+                                                        "name": "input-check",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "mimoSupport",
+                                                          "align": "left",
+                                                          "label": "Mimo support",
+                                                          "style": "square"
+                                                        },
+                                                        "id": "179"
+                                                      },
+                                                      {
+                                                        "name": "label-header",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "",
+                                                          "align": "left",
+                                                          "text": "Size",
+                                                          "bold": false,
+                                                          "size": "h5"
+                                                        },
+                                                        "id": "184"
+                                                      },
+                                                      {
+                                                        "name": "multi-input",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "size",
+                                                          "align": "left",
+                                                          "inputs": [
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "height",
+                                                                "unit": "m",
+                                                                "label": "Height"
+                                                              },
+                                                              "id": "82"
+                                                            },
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "width",
+                                                                "unit": "m",
+                                                                "label": "Width"
+                                                              },
+                                                              "id": "83"
+                                                            },
+                                                            {
+                                                              "name": "input-value",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "binding": "depth",
+                                                                "unit": "m",
+                                                                "label": "Depth"
+                                                              },
+                                                              "id": "84"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "75"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "93"
+                                                },
+                                                {
+                                                  "name": "formlayout-column",
+                                                  "md": {
+                                                    "columnWidth": "10",
+                                                    "components": [
+                                                      {
+                                                        "name": "object-list",
+                                                        "md": {
+                                                          "width": "auto",
+                                                          "height": "auto",
+                                                          "margin": {
+                                                            "top": 0,
+                                                            "right": 0,
+                                                            "bottom": 0,
+                                                            "left": 0
+                                                          },
+                                                          "binding": "pattern",
+                                                          "align": "left",
+                                                          "sidebarTitle": "Pattern",
+                                                          "formTitle": "",
+                                                          "sidebarWidth": "300px",
+                                                          "columns": [
+                                                            {
+                                                              "name": "object-list-column",
+                                                              "md": {
+                                                                "width": "34%",
+                                                                "height": "auto",
+                                                                "label": "Frequency",
+                                                                "unit": "Mhz",
+                                                                "binding": "frequency"
+                                                              },
+                                                              "id": "202"
+                                                            },
+                                                            {
+                                                              "name": "object-list-column",
+                                                              "md": {
+                                                                "width": "33%",
+                                                                "height": "auto",
+                                                                "label": "Gain",
+                                                                "unit": "dBi",
+                                                                "binding": "gain"
+                                                              },
+                                                              "id": "203"
+                                                            },
+                                                            {
+                                                              "name": "object-list-column",
+                                                              "md": {
+                                                                "width": "33%",
+                                                                "height": "auto",
+                                                                "label": "E-Tilt",
+                                                                "unit": "deg",
+                                                                "binding": "eTilt"
+                                                              },
+                                                              "id": "204"
+                                                            }
+                                                          ],
+                                                          "components": [
+                                                            {
+                                                              "name": "tab-control",
+                                                              "md": {
+                                                                "width": "auto",
+                                                                "height": "auto",
+                                                                "margin": {
+                                                                  "top": 0,
+                                                                  "right": 0,
+                                                                  "bottom": 0,
+                                                                  "left": 0
+                                                                },
+                                                                "align": "left",
+                                                                "tabs": [
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "Diagramm",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "chart",
+                                                                          "md": {
+                                                                            "width": "auto",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "align": "left",
+                                                                            "xAxesLabel": "angle, dgr",
+                                                                            "yAxesLabel": "Co-X pattern",
+                                                                            "lines": [
+                                                                              {
+                                                                                "name": "chart-line",
+                                                                                "md": {
+                                                                                  "binding": "coXPattern",
+                                                                                  "label": "X-pol",
+                                                                                  "color": "red",
+                                                                                  "xBinding": "angle",
+                                                                                  "yBinding": "xPol"
+                                                                                },
+                                                                                "id": "220"
+                                                                              },
+                                                                              {
+                                                                                "name": "chart-line",
+                                                                                "md": {
+                                                                                  "binding": "coXPattern",
+                                                                                  "label": "Co-pol",
+                                                                                  "color": "yellow",
+                                                                                  "xBinding": "angle",
+                                                                                  "yBinding": "coPol"
+                                                                                },
+                                                                                "id": "224"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "215"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "122"
+                                                                  },
+                                                                  {
+                                                                    "name": "tab-control-item",
+                                                                    "md": {
+                                                                      "width": "auto",
+                                                                      "height": "auto",
+                                                                      "margin": {
+                                                                        "top": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0,
+                                                                        "left": 0
+                                                                      },
+                                                                      "align": "left",
+                                                                      "name": "Pattern data",
+                                                                      "components": [
+                                                                        {
+                                                                          "name": "data-grid",
+                                                                          "md": {
+                                                                            "width": "100%",
+                                                                            "height": "auto",
+                                                                            "margin": {
+                                                                              "top": 0,
+                                                                              "right": 0,
+                                                                              "bottom": 0,
+                                                                              "left": 0
+                                                                            },
+                                                                            "binding": "coXPattern",
+                                                                            "align": "left",
+                                                                            "paging": true,
+                                                                            "recordsPerPage": "5",
+                                                                            "columns": [
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "33.3%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "angle",
+                                                                                  "align": "left",
+                                                                                  "unit": "deg",
+                                                                                  "label": "Angle"
+                                                                                },
+                                                                                "id": "191"
+                                                                              },
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "33.3%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "coPol",
+                                                                                  "align": "left",
+                                                                                  "unit": "Co-pol",
+                                                                                  "label": "Co-pol"
+                                                                                },
+                                                                                "id": "195"
+                                                                              },
+                                                                              {
+                                                                                "name": "data-grid-column",
+                                                                                "md": {
+                                                                                  "width": "33.4%",
+                                                                                  "height": "auto",
+                                                                                  "margin": {
+                                                                                    "top": 0,
+                                                                                    "right": 0,
+                                                                                    "bottom": 0,
+                                                                                    "left": 0
+                                                                                  },
+                                                                                  "binding": "xPol",
+                                                                                  "align": "left",
+                                                                                  "unit": "X-pol",
+                                                                                  "label": "X-pol"
+                                                                                },
+                                                                                "id": "199"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "id": "186"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "id": "123"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              "id": "120"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "id": "68"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "id": "97"
+                                                }
+                                              ]
+                                            },
+                                            "id": "59"
+                                          }
+                                        ]
+                                      },
+                                      "id": "9"
+                                    }
+                                  ]
+                                },
+                                "id": "57"
+                              },
+                              {
+                                "name": "page-control-item",
+                                "md": {
+                                  "width": "auto",
+                                  "height": "auto",
+                                  "margin": {
+                                    "top": 0,
+                                    "right": 0,
+                                    "bottom": 0,
+                                    "left": 0
+                                  },
+                                  "align": "left",
+                                  "name": "Administrative",
+                                  "components": []
+                                },
+                                "id": "58"
+                              }
+                            ]
+                          },
+                          "id": "54"
+                        }
+                      ]
+                    },
+                    "id": "21"
+                  }
+                ]
+              },
+              "id": "20"
+            }
+          ]
+        },
+        "id": "2"
+      }
+    ]
+  },
+  "id": "1"
+}
